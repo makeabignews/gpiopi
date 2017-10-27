@@ -5,18 +5,17 @@ use:
 npm install gpiopi
 ```
 
-read a pin value
+low pin2
 
 ```nodejs
 var gpiopi=require('gpiopi');
-var pinvalue=gpiopi.in(2);
+gpiopi.low(2);
 ```
 
-set a pin LOW or HiGH
+high pin2
 
 ```nodejs
-gpiopi.out(21,1);//high
-gpiopi.out(21,0);//low
+gpiopi.high(2);
 ```
 
 新浪微博 @谷三井
