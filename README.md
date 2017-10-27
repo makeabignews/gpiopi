@@ -5,10 +5,14 @@ use:
 npm install gpiopi
 ```
 
+require
+```nodejs
+var gpiopi=require('gpiopi');
+```
+
 low pin2
 
 ```nodejs
-var gpiopi=require('gpiopi');
 gpiopi.low(2);
 ```
 
