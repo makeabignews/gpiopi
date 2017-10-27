@@ -7,14 +7,14 @@ module.exports={
                 fs.writeFile(path+'unexport',pin,function(){
                     fs.writeFile(path+'export',pin,function(){
                         fs.writeFile(path+'gpio'+pin+'/direction','out',function(){
-                            fs.write(path+'gpio'+pin+'/value',0);
+                            fs.writeFile(path+'gpio'+pin+'/value',0);
                         });
                     });
                 });
             }else{
                 fs.writeFile(path+'export',pin,function(){
                     fs.writeFile(path+'gpio'+pin+'/direction','out',function(){
-                        fs.write(path+'gpio'+pin+'/value',0);
+                        fs.writeFile(path+'gpio'+pin+'/value',0);
                     });
                 });
             }
@@ -26,14 +26,14 @@ module.exports={
                 fs.writeFile(path+'unexport',pin,function(){
                     fs.writeFile(path+'export',pin,function(){
                         fs.writeFile(path+'gpio'+pin+'/direction','out',function(){
-                            fs.write(path+'gpio'+pin+'/value',1);
+                            fs.writeFile(path+'gpio'+pin+'/value',1);
                         });
                     });
                 });
             }else{
                 fs.writeFile(path+'export',pin,function(){
                     fs.writeFile(path+'gpio'+pin+'/direction','out',function(){
-                        fs.write(path+'gpio'+pin+'/value',1);
+                        fs.writeFile(path+'gpio'+pin+'/value',1);
                     });
                 });
             }
