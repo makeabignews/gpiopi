@@ -1,0 +1,19 @@
+{
+  "name": "gpiopi",
+  "version": "0.0.1",
+  "description": "the gpio lib for raspberry pi",
+  "main": "gpiopi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://makeabignews@github.com/makeabignews/gpiopi.git"
+  },
+  "author": "makeabignews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makeabignews/gpiopi/issues"
+  },
+  "homepage": "https://github.com/makeabignews/gpiopi#readme"
+}
