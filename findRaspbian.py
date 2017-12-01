@@ -1,5 +1,4 @@
 #-*- coding: utf-8 -*-
-
 import platform
 import sys
 import os
@@ -34,7 +33,7 @@ def find_ip(ip_prefix):
         ip = "%s.%s" % (ip_prefix,i)
         out.write("\rscanning %s" % (ip))
         thread.start_new_thread(find_22, (ip,))
-        time.sleep(0.3)
+        time.sleep(0.1)
     out.flush()
     print "finish"
 if __name__ == "__main__":
